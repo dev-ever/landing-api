@@ -1,0 +1,144 @@
+
+@font-face {
+  font-family: 'Montserrat';
+  src:url('fonts/Montserrat-Regular.eot'); /* IE9 Compat Modes */
+  src:url('fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+      url('fonts/Montserrat-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+      url('fonts/Montserrat-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+      url('fonts/Montserrat-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');  /* Legacy iOS*/
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src:url('fonts/Montserrat-Bold.eot'); /* IE9 Compat Modes */
+  src:url('fonts/Montserrat-Bold.eot?iefix') format('embedded-opentype'),  /* IE6-IE8 */
+      url('fonts/Montserrat-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+      url('fonts/Montserrat-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+      url('fonts/Montserrat-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg'); /* Legacy iOS*/
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+@font-face {
+  font-family: "Caviar";
+  src:
+    local("Caviar"),
+    url("fonts/CaviarDreams.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CaviarBold";
+  src:
+    local("CaviarBold"),
+    url("fonts/CaviarDreams_Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CaviarBoldItalic";
+  src:
+    local("CaviarBoldItalic"),
+    url("fonts/CaviarDreams_BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Futura";
+  src:
+    local("Futura"),
+    url("fonts/futura-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FuturaMedium";
+  src:
+    local("FuturaMedium"),
+    url("fonts/futura-medium.ttf") format("truetype");
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background{
+    background-image: url(../img/template/photo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+.login-box, .register-box{
+    width: 460px;
+}
+
+.small-box .small-box-icon {
+    top:0px;
+  }
+
+  #profile .nameProfile, .nameProfileCompany{
+
+    font-size: 1rem !important;
+    font-family: 'Futura','CaviarBold', sans-serif;
+
+  } 
+
+  .sidebar-menu li a{
+
+    font-family: 'Futura','CaviarBold', sans-serif;
+
+  }
+
+  .small-box h3, .small-box p{
+
+    font-family: 'Futura','CaviarBold', sans-serif;
+
+  }
+
+  .small-box-footer{
+    font-family: 'Futura','CaviarBold', sans-serif;
+  }
+
+  .breadcrumb-item{
+    font-family: 'Futura','CaviarBold', sans-serif;
+    font-weight: bold;
+  }
+
+   .listOptionsCompany li, 
+   .listOptionsCompany li a{
+    list-style: none;
+    text-decoration: none;
+    color: #4F4F4F;
+    font-family: 'Futura','CaviarBold', sans-serif;
+  }
+
+  #formEditTemplate label{
+    font-family: 'Futura','CaviarBold', sans-serif;
+    font-weight: bold;
+  }
+
+  input[type=text], 
+  input[type="email"],
+  button[type="submit"],
+  input[type="file"],
+  textarea{
+
+   font-family: 'Futura','CaviarBold', sans-serif;
+   /*font-weight: 600;*/
+   color: #4F4F4F;
+
+
+  }
+
+  table tr td, table th{
+    font-family: 'Futura','CaviarBold', sans-serif;
+
+  }

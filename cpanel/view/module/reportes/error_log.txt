@@ -1,0 +1,5 @@
+[09-Jul-2025 20:51:35 UTC] PHP Fatal error:  Uncaught Error: Class "ControladorAsignacion" not found in /home/u725112231/domains/emauro.com.mx/public_html/contactos/cpanel/controller/contact.controller.php:25
+Stack trace:
+#0 /home/u725112231/domains/emauro.com.mx/public_html/contactos/cpanel/view/module/reportes/down-excel.php(9): ControllerContact->ctrDescargarReporteGeneral()
+#1 {main}
+  thrown in /home/u725112231/domains/emauro.com.mx/public_html/contactos/cpanel/controller/contact.controller.php on line 25

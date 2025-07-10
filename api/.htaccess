@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^contacto$ contacto.php [QSA,L]
+RewriteRule ^contactos$ contactos.php [QSA,L]
+RewriteRule ^contactos/([0-9]+)$ contactos.php [QSA,L]
