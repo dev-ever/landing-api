@@ -31,9 +31,9 @@ BACKEND API - ENDPOINT
 
 - Conexión a base de datos MYSQL (Se cambian de acuerdo a su configuración de su servicio)
   - $host = "localhost";
-  - $user = "u725112231_contactos";
-  - $pass = "Hidedark0306";
-  - $dbname = "u725112231_contactos";
+  - $user = "u725112231_contactos";   #tu user de base de datos
+  - $pass = "*******";                #tu password
+  - $dbname = "u725112231_contactos"; #tu nombre de base de datis
 
 
 FONTEND - Landing Page
@@ -94,9 +94,9 @@ cd inventario-php
 
 ```php
 $host = "localhost";
-$user = "u725112231_contactos";
-$pass = "Hidedark0306";
-$dbname = "u725112231_contactos";
+$user = "u725112231_userBD";
+$pass = "*********";
+$dbname = "u725112231_nameBD";
 ```
 
 - Modifica los datos de conexión en CPanel, en `model/conexion.php`:
@@ -106,9 +106,9 @@ $dbname = "u725112231_contactos";
 
 	static public function conectar(){
 		
-    $link = new PDO("mysql:host=localhost;dbname=u725112231_contactos",
-    	            "u725112231_contactos",
-    	            "Hidedark0306",
+    $link = new PDO("mysql:host=localhost;dbname=u725112231_nameBD",
+    	            "u725112231_userBD",
+    	            "*********",
 	                 array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, 
 	                 	   PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 
