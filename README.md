@@ -7,11 +7,11 @@ Este es un sistema de consulta de registros de contactos desde el sitio del land
 
 - ✅ PHP 8+ (API)
 - ✅ MySQL
-- ✅ jQuery / JAvaScript
+- ✅ jQuery / JavaScript
 - ✅ AJAX + JSON
 - ✅ HTML5 / CSS3
 - ✅ Bootstrap 5
-- ✅ Librerias JS - Sweetalert2, AOS, Google Fonts
+- ✅ Librerias JS - Sweetalert2, AOS.js, Google Fonts
 
 ## 🎯 Funcionalidades Principales
 
@@ -31,9 +31,9 @@ BACKEND API - ENDPOINT
 
 - Conexión a base de datos MYSQL (Se cambian de acuerdo a su configuración de su servicio)
   - $host = "localhost";
-  - $user = "u725112231_contactos";   #tu user de base de datos
+  - $user = "u725112231_userBD";   #tu user de base de datos
   - $pass = "*******";                #tu password
-  - $dbname = "u725112231_contactos"; #tu nombre de base de datis
+  - $dbname = "u725112231_nameBD"; #tu nombre de base de datis
 
 
 FONTEND - Landing Page
